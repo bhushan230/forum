@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AIGNITE — The Departmental Forum of Artificial Intelligence & Machine Learning, TGPCET Nagpur. Forum Reinstallation Ceremony Invitation." />
+  <meta name="theme-color" content="#060609" />
+  <title>AIGNITE — AIML Forum Invitation · TGPCET</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── SCROLL PROGRESS ─── -->
+  <div class="scroll-progress" id="scrollProgress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Scroll progress"></div>
+
+  <!-- ─── PARTICLES BACKGROUND ─── -->
+  <div class="particles-bg" id="particlesBg" aria-hidden="true"></div>
+
+  <!-- ─── FLOATING HEADER ─── -->
+  <nav class="floating-header">
+    <div class="header-brand">
+      <img src="assets/logo.png" alt="AIGNITE Logo" class="header-logo-small" />
+      <span class="brand-text">AIGNITE</span>
+    </div>
+    <div class="header-status">
+      <span class="status-dot"></span>
+      SYS.ONLINE
+    </div>
+  </nav>
+
+  <!-- ─── PREMIUM HERO SECTION ─── -->
+  <header class="hero tech-layout">
+    <div class="tech-grid-bg"></div>
+    <div class="noise-overlay"></div>
+    <div class="hero-glow-orb hero-glow-1"></div>
+    <div class="hero-glow-orb hero-glow-2"></div>
+
+    <div class="hero-center">
+
+      <!-- Top badge -->
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        <span>TGPCET · AIML Department · 2026</span>
+      </div>
+
+      <!-- Main Title -->
+      <h1 class="main-title">
+        <span class="title-line-main">AIGNITE</span>
+        <span class="title-line-sub">Reinstallation <span class="title-gold">Ceremony</span></span>
+      </h1>
+
+      <!-- Animated neon divider -->
+      <div class="hero-divider">
+        <div class="hero-divider-line"></div>
+        <div class="hero-divider-diamond">◆</div>
+        <div class="hero-divider-line"></div>
+      </div>
+
+      <!-- Subtitle -->
+      <p class="hero-subtitle">
+        Reinstallation Ceremony of <strong>"AIGNITE"</strong> — The AIML Departmental Forum of TGPCET, Nagpur
+      </p>
+
+      <!-- Countdown timer -->
+      <div id="countdownTimer"></div>
+
+      <!-- Event Info Cards -->
+      <div class="hero-info-row">
+        <div class="hero-info-card">
+          <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="1.5" fill="none">
+            <rect x="3" y="4" width="18" height="18" rx="2" />
+            <line x1="16" y1="2" x2="16" y2="6" />
+            <line x1="8" y1="2" x2="8" y2="6" />
+            <line x1="3" y1="10" x2="21" y2="10" />
+          </svg>
+          <div>
+            <span class="info-label">DATE</span>
+            <span class="info-value">24th July, 2026</span>
+          </div>
+        </div>
+        <div class="hero-info-divider"></div>
+        <div class="hero-info-card">
+          <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="1.5" fill="none">
+            <circle cx="12" cy="12" r="10" />
+            <polyline points="12 6 12 12 16 14" />
+          </svg>
+          <div>
+            <span class="info-label">TIME</span>
+            <span class="info-value">11:00 AM</span>
+          </div>
+        </div>
+        <div class="hero-info-divider"></div>
+        <div class="hero-info-card">
+          <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="1.5" fill="none">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+            <circle cx="12" cy="10" r="3" />
+          </svg>
+          <div>
+            <span class="info-label">VENUE</span>
+            <span class="info-value">JRD Tata Hall, First Building</span>
+            <span class="info-sub">TGPCET Campus, Nagpur</span>
+          </div>
+        </div>
+        <div class="hero-info-divider"></div>
+        <div class="hero-info-card">
+          <div class="info-status-dot"></div>
+          <div>
+            <span class="info-label">STATUS</span>
+            <span class="info-value" style="color:#6ee7b7">LIVE EVENT</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="hero-scroll-hint">
+        <div class="hero-scroll-line"></div>
+        <span>SCROLL TO VIEW GUESTS</span>
+        <div class="hero-scroll-line"></div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ─── MAIN CAROUSEL ─── -->
+  <main class="container" style="padding:0">
+    <div class="scroll-ring-wrapper" id="scrollRingWrapper">
+      <div class="scroll-ring-sticky">
+
+        <!-- The Ring -->
+        <div class="ring-wrap">
+          <div class="ring" id="ring"></div>
+        </div>
+
+        <!-- Caption / Info area -->
+        <div class="scroll-ring-info">
+          <p class="ring-role" id="ringRole"></p>
+          <h3 class="ring-name" id="ringName"></h3>
+          <button class="ring-btn" id="ringBtn">
+            Open Invitation
+            <span class="ring-btn-arrow">→</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="site-footer">
+    <div class="footer-line"></div>
+    <p class="footer-college">
+      Tulsiramji Gaikwad-Patil College of Engineering &amp; Technology, Nagpur
+    </p>
+    <p class="footer-dept">
+      Department of Artificial Intelligence &amp; Machine Learning
+    </p>
+    <br>
+    <p>
+      Built by Technical Team AIGNITE 2026
+    </p>
+  </footer>
+
+  <!-- ─── INVITATION PORTAL (populated by JS) ─── -->
+  <div id="invitationPortalRoot"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
